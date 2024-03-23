@@ -1,1 +1,114 @@
-{"@type": "dcat:Dataset", "accessLevel": "public", "contactPoint": {"@type": "vcard:Contact", "fn": "svc dmesb", "hasEmail": "mailto:no-reply@data.montgomerycountymd.gov"}, "description": "This dataset contains a list of shelter animals that are ready to be adopted from the Montgomery County Animal Services and Adoption Center at 7315 Muncaster Mill Rd., Derwood MD  20855. The 'How To Adopt' details are posted on https://www.montgomerycountymd.gov/animalservices/adoption/howtoadopt.html.\r\nUpdate Frequency : Every two hours", "distribution": [{"@type": "dcat:Distribution", "downloadURL": "https://data.montgomerycountymd.gov/api/views/e54u-qx42/rows.csv?accessType=DOWNLOAD", "mediaType": "text/csv"}, {"@type": "dcat:Distribution", "describedBy": "https://data.montgomerycountymd.gov/api/views/e54u-qx42/columns.rdf", "describedByType": "application/rdf+xml", "downloadURL": "https://data.montgomerycountymd.gov/api/views/e54u-qx42/rows.rdf?accessType=DOWNLOAD", "mediaType": "application/rdf+xml"}, {"@type": "dcat:Distribution", "describedBy": "https://data.montgomerycountymd.gov/api/views/e54u-qx42/columns.json", "describedByType": "application/json", "downloadURL": "https://data.montgomerycountymd.gov/api/views/e54u-qx42/rows.json?accessType=DOWNLOAD", "mediaType": "application/json"}, {"@type": "dcat:Distribution", "describedBy": "https://data.montgomerycountymd.gov/api/views/e54u-qx42/columns.xml", "describedByType": "application/xml", "downloadURL": "https://data.montgomerycountymd.gov/api/views/e54u-qx42/rows.xml?accessType=DOWNLOAD", "mediaType": "application/xml"}], "identifier": "https://data.montgomerycountymd.gov/api/views/e54u-qx42", "issued": "2018-05-01", "keyword": ["adoptable", "animals", "cat", "dog", "pets", "police"], "landingPage": "https://data.montgomerycountymd.gov/d/e54u-qx42", "modified": "2024-03-22", "publisher": {"@type": "org:Organization", "name": "data.montgomerycountymd.gov"}, "theme": ["Public Safety"], "title": "Adoptable Pets"}
+{
+    "pets": [
+      {
+        "id": 1,
+        "category": "Dogs",
+        "name": "Buddy",
+        "breed": "Golden Retriever",
+        "shelter": "Paws of Love Rescue",
+        "image": "https://www.pexels.com/photo/adult-golden-retriever-sitting-on-grass-field-1001976/",
+        "price": 300,
+        "contact": "pawsoflove@example.com"
+      },
+      {
+        "id": 2,
+        "category": "Cats",
+        "name": "Whiskers",
+        "breed": "Persian",
+        "shelter": "Feline Friends Shelter",
+        "image": "https://www.pexels.com/photo/grey-persian-cat-3423805/",
+        "price": 150,
+        "contact": "felinefriends@example.com"
+      },
+      {
+        "id": 3,
+        "category": "Pythons",
+        "name": "Slytherin",
+        "breed": "Ball Python",
+        "shelter": "Reptile Retreat",
+        "image": "https://www.pexels.com/photo/close-up-of-ball-python-18012500/",
+        "price": 100,
+        "contact": "reptileretreat@example.com"
+      },
+      {
+        "id": 4,
+        "category": "Birds",
+        "name": "Tweety",
+        "breed": "Canary",
+        "shelter": "Feathered Friends Sanctuary",
+        "image": "https://www.pexels.com/photo/close-up-shot-of-a-yellow-canary-6398822/",
+        "price": 50,
+        "contact": "featheredfriends@example.com"
+      },
+      {
+        "id": 5,
+        "category": "Dogs",
+        "name": "Rocky",
+        "breed": "German Shepherd",
+        "shelter": "Rescue Me Center",
+        "image": "https://www.pexels.com/photo/adult-german-shepherd-lying-on-ground-333083/",
+        "price": 250,
+        "contact": "rescueme@example.com"
+      },
+      {
+        "id": 6,
+        "category": "Cats",
+        "name": "Mittens",
+        "breed": "Maine Coon",
+        "shelter": "Furry Friends Haven",
+        "image": "https://www.pexels.com/photo/close-up-shot-of-a-maine-8942602/",
+        "price": 120,
+        "contact": "furryfriends@example.com"
+      },
+      {
+        "id": 7,
+        "category": "Pythons",
+        "name": "Hiss",
+        "breed": "Burmese Python",
+        "shelter": "Slithering Serenity",
+        "image": "https://www.pexels.com/photo/beige-python-on-brown-branch-of-tree-1108192/",
+        "price": 80,
+        "contact": "slitheringserenity@example.com"
+      },
+      {
+        "id": 8,
+        "category": "Birds",
+        "name": "Chirpy",
+        "breed": "Parakeet",
+        "shelter": "Avian Acres",
+        "image": "https://www.pexels.com/photo/photo-of-perched-parakeet-1661179/",
+        "price": 40,
+        "contact": "avianacres@example.com"
+      },
+      {
+        "id": 9,
+        "category": "Dogs",
+        "name": "Luna",
+        "breed": "Siberian Husky",
+        "shelter": "Northern Paws Rescue",
+        "image": "https://www.pexels.com/photo/black-and-white-siberian-husky-3715587/",
+        "price": 350,
+        "contact": "northernpaws@example.com"
+      },
+      {
+        "id": 10,
+        "category": "Cats",
+        "name": "Shadow",
+        "breed": "Russian Blue",
+        "shelter": "Silent Meows Shelter",
+        "image": "https://www.pexels.com/photo/a-blue-cat-on-a-table-with-houseplants-16845242/",
+        "price": 180,
+        "contact": "silentmeows@example.com"
+      },
+      {
+        "id": 11,
+        "category": "Pythons",
+        "name": "Fang",
+        "breed": "Reticulated Python",
+        "shelter": "Ssssnake Haven",
+        "image": "https://www.pexels.com/photo/photo-of-snake-3281127/",
+        "price": 120,
+        "contact": "ssssnakehaven@example.com"
+      }
+    ]}
+  
