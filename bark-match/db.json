@@ -1,114 +1,94 @@
 {
-    "pets": [
-      {
-        "id": 1,
-        "category": "Dogs",
-        "name": "Buddy",
-        "breed": "Golden Retriever",
-        "shelter": "Paws of Love Rescue",
-        "image": "https://www.pexels.com/photo/adult-golden-retriever-sitting-on-grass-field-1001976/",
-        "price": 300,
-        "contact": "pawsoflove@example.com"
-      },
-      {
-        "id": 2,
-        "category": "Cats",
-        "name": "Whiskers",
-        "breed": "Persian",
-        "shelter": "Feline Friends Shelter",
-        "image": "https://www.pexels.com/photo/grey-persian-cat-3423805/",
-        "price": 150,
-        "contact": "felinefriends@example.com"
-      },
-      {
-        "id": 3,
-        "category": "Pythons",
-        "name": "Slytherin",
-        "breed": "Ball Python",
-        "shelter": "Reptile Retreat",
-        "image": "https://www.pexels.com/photo/close-up-of-ball-python-18012500/",
-        "price": 100,
-        "contact": "reptileretreat@example.com"
-      },
-      {
-        "id": 4,
-        "category": "Birds",
-        "name": "Tweety",
-        "breed": "Canary",
-        "shelter": "Feathered Friends Sanctuary",
-        "image": "https://www.pexels.com/photo/close-up-shot-of-a-yellow-canary-6398822/",
-        "price": 50,
-        "contact": "featheredfriends@example.com"
-      },
-      {
-        "id": 5,
-        "category": "Dogs",
-        "name": "Rocky",
-        "breed": "German Shepherd",
-        "shelter": "Rescue Me Center",
-        "image": "https://www.pexels.com/photo/adult-german-shepherd-lying-on-ground-333083/",
-        "price": 250,
-        "contact": "rescueme@example.com"
-      },
-      {
-        "id": 6,
-        "category": "Cats",
-        "name": "Mittens",
-        "breed": "Maine Coon",
-        "shelter": "Furry Friends Haven",
-        "image": "https://www.pexels.com/photo/close-up-shot-of-a-maine-8942602/",
-        "price": 120,
-        "contact": "furryfriends@example.com"
-      },
-      {
-        "id": 7,
-        "category": "Pythons",
-        "name": "Hiss",
-        "breed": "Burmese Python",
-        "shelter": "Slithering Serenity",
-        "image": "https://www.pexels.com/photo/beige-python-on-brown-branch-of-tree-1108192/",
-        "price": 80,
-        "contact": "slitheringserenity@example.com"
-      },
-      {
-        "id": 8,
-        "category": "Birds",
-        "name": "Chirpy",
-        "breed": "Parakeet",
-        "shelter": "Avian Acres",
-        "image": "https://www.pexels.com/photo/photo-of-perched-parakeet-1661179/",
-        "price": 40,
-        "contact": "avianacres@example.com"
-      },
-      {
-        "id": 9,
-        "category": "Dogs",
-        "name": "Luna",
-        "breed": "Siberian Husky",
-        "shelter": "Northern Paws Rescue",
-        "image": "https://www.pexels.com/photo/black-and-white-siberian-husky-3715587/",
-        "price": 350,
-        "contact": "northernpaws@example.com"
-      },
-      {
-        "id": 10,
-        "category": "Cats",
-        "name": "Shadow",
-        "breed": "Russian Blue",
-        "shelter": "Silent Meows Shelter",
-        "image": "https://www.pexels.com/photo/a-blue-cat-on-a-table-with-houseplants-16845242/",
-        "price": 180,
-        "contact": "silentmeows@example.com"
-      },
-      {
-        "id": 11,
-        "category": "Pythons",
-        "name": "Fang",
-        "breed": "Reticulated Python",
-        "shelter": "Ssssnake Haven",
-        "image": "https://www.pexels.com/photo/photo-of-snake-3281127/",
-        "price": 120,
-        "contact": "ssssnakehaven@example.com"
-      }
-    ]}
-  
+  "pets": [
+    {
+      "id": 1,
+      "category": "Dogs",
+      "name": "Buddy",
+      "breed": "Golden Retriever",
+      "shelter": "Paws of Love Rescue",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUPpgKEPh72Y_YpLUTKXp_ZY5IsBTcGpbN1-WAvLqxng&s/buddy.jpg",
+      "price": 300,
+      "contact": "pawsoflove@example.com"
+    },
+    {
+      "id": 2,
+      "category": "Cats",
+      "name": "Whiskers",
+      "breed": "Persian",
+      "shelter": "Feline Friends Shelter",
+      "image": "https://i.pinimg.com/736x/fe/81/40/fe8140359f27e940faee8331564d4006.jpg/whiskers.jpg",
+      "price": 150,
+      "contact": "felinefriends@example.com"
+    },
+    {
+      "id": 3,
+      "category": "Birds",
+      "name": "Tweety",
+      "breed": "Canary",
+      "shelter": "Feathered Friends Sanctuary",
+      "image": "https://data:image/jpeg;base64,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/tweety.jpg",
+      "price": 50,
+      "contact": "featheredfriends@example.com"
+    },
+    {
+      "id": 4,
+      "category": "Dogs",
+      "name": "Rocky",
+      "breed": "German Shepherd",
+      "shelter": "Rescue Me Center",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUPpgKEPh72Y_YpLUTKXp_ZY5IsBTcGpbN1-WAvLqxng&s/rocky.jpg",
+      "price": 250,
+      "contact": "rescueme@example.com"
+    },
+    {
+      "id": 5,
+      "category": "Cats",
+      "name": "Mittens",
+      "breed": "Maine Coon",
+      "shelter": "Furry Friends Haven",
+      "image": "https://i.pinimg.com/736x/fe/81/40/fe8140359f27e940faee8331564d4006.jpg/mittens.jpg",
+      "price": 120,
+      "contact": "furryfriends@example.com"
+    },
+    {
+      "id": 6,
+      "category": "Birds",
+      "name": "Chirpy",
+      "breed": "Parakeet",
+      "shelter": "Avian Acres",
+      "image": "https://https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ4rHT2IFEppUT70EKTdc9F1J03IkZ2c9dPpP9WIGweW5IttFsi/chirpy.jpg",
+      "price": 40,
+      "contact": "avianacres@example.com"
+    },
+    {
+      "id": 7,
+      "category": "Dogs",
+      "name": "Luna",
+      "breed": "Siberian Husky",
+      "shelter": "Northern Paws Rescue",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUPpgKEPh72Y_YpLUTKXp_ZY5IsBTcGpbN1-WAvLqxng&s/luna.jpg",
+      "price": 350,
+      "contact": "northernpaws@example.com"
+    },
+    {
+      "id": 8,
+      "category": "Cats",
+      "name": "Shadow",
+      "breed": "Russian Blue",
+      "shelter": "Silent Meows Shelter",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlaZI23wL3__iK6UNGPk-z2v-Urga_ob6dk9mKAdhsbar4jJ0NN8X9NoMkdzUz4R-2wDA&usqp=CAU/shadow.jpg",
+      "price": 180,
+      "contact": "silentmeows@example.com"
+    },
+    {
+      "id": 9,
+      "category": "Birds",
+      "name": "Feathers",
+      "breed": "Budgerigar",
+      "shelter": "Feathered Friends Sanctuary",
+      "image": "https://i.ytimg.com/vi/MjEaniGTrx0/maxresdefault.jpg/feathers.jpg",
+      "price": 45,
+      "contact": "featheredfriends@example.com"
+    }
+  ]
+}
